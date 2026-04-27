@@ -1,0 +1,16 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.import.exclusions": [
+        "**/node_modules/**"
+    ],
+    "typescript.preferences.excludePackages": [
+        "*"
+    ],
+    "eslint.workingDirectories": [
+        "./src"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "eslint.ignorePath": ".eslintignore"
+}
