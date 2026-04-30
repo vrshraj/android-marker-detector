@@ -123,6 +123,12 @@ android {
             assets.srcDirs += ['src/androidTest/assets']
         }
     }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "MarkerDetector-${variant.name}.apk"
+        }
+    }
 }
 
 dependencies {
