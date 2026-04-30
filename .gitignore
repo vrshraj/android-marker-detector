@@ -78,3 +78,5 @@ android/*.txt
 android/test_output.txt
 android/logs*.txt
 *.log
+SUBMISSION_REPORT.*
+walkthrough.md
