@@ -20,7 +20,7 @@ To make the detection feel more "pro," I implemented two specific features:
 
 ### Deliverables
 - **GitHub Repository:** [https://github.com/vrshraj/android-marker-detector](https://github.com/vrshraj/android-marker-detector)
-- **Built APK:** You can find the latest build in the project at: `android/app/build/outputs/apk/debug/Marker Detector.apk`
+- **Built APK:** You can find the optimized build (39MB) at: `android/app/build/outputs/apk/release/Marker Detector.apk`
 
 The project is now clean, documented, and ready for review. Please let me know if you have any questions or need a walkthrough of the code!
 
