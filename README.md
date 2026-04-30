@@ -24,6 +24,15 @@ Primary goals:
 - Kotlin (Android)
 - OpenCV Android SDK
 
+## Latest Improvements
+
+The following refinements were implemented to ensure production-grade reliability:
+
+- **Sharpness Filter:** Added a Laplacian variance-based sharpness gate to reject blurry frames automatically.
+- **Precision Cropping:** Corners are now inset by 15% toward the centroid before warping, effectively removing all black/dashed border fragments from the final output.
+- **Relaxed Detection Thresholds:** Optimized area and aspect ratio constraints to allow robust detection under variable lighting and extreme camera angles.
+- **Lifecycle Stability:** Resolved `FrameInvalidError` and memory leaks by optimizing the interaction between VisionCamera's frame lifecycle and OpenCV's memory management.
+
 ## Architecture Summary
 
 High-level data flow:

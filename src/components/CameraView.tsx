@@ -66,6 +66,8 @@ export function CameraView({onCodeDetected, isActive = true}: Props) {
       isActive={isActive}
       codeScanner={codeScanner}
       format={format}
+      resizeMode="cover"
+      autoFocus="on"
     />
   );
 }

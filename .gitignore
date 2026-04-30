@@ -74,3 +74,7 @@ vendor/bundle/
 !.yarn/sdks
 !.yarn/versions
 android/opencv/
+android/*.txt
+android/test_output.txt
+android/logs*.txt
+*.log
